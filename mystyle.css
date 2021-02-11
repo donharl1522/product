@@ -1,0 +1,187 @@
+*{
+	color: #e6e6e6;
+}
+#header{
+}
+#header-img{
+	margin-top: -10px;
+	margin-left: 400px;
+	margin-bottom: 20px;
+	margin-right: 50px;
+}
+#nav-bar{
+	background-image: url(images/bg3.jpg);
+	position: fixed;
+	background-position:;
+	display: block;
+	width: 1510px;
+	height: 70px;
+
+}
+.nav{
+	margin-top: 20px;
+	margin-right: 30px;
+	margin-left: 50px;
+	display: block;
+	font-size: 20px;
+	float: left;
+	text-decoration: none;
+	font-family: cursive;
+	color: #262626;
+}
+#welcome{
+	text-align: center;
+	font-size: 200px;
+	font-family: fantasy;
+	margin-top: 150px;
+	margin-bottom: -60px;
+}
+#fdesc{
+	text-align: center;
+	font-size: 30px;
+}
+
+#ftitle{
+	text-align: center;
+	font-size: 100px;
+	margin-bottom: 20px;
+}
+#fpara{
+	text-align: center;
+	font-size: 20px;
+	margin-right:150px; 
+	margin-left:150px;
+}
+
+.column2{
+	float:left;
+	width: 33%;
+	padding: 1px;
+	text-align: center;
+}
+@media screen and (max-width: 1500px) {
+  .column2 {
+    width: 100%;
+  }
+}
+
+.row2: after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+#p3070{
+	width: 350px;
+	border-radius: 10%;
+}
+#p3080{
+	width: 350px;
+	border-radius: 10%;
+}
+#p3090{
+	width: 350px;
+	border-radius: 10%;
+}
+.pictitle{
+	font-size: 30px;
+}
+#videodesc{
+	text-align: center;
+	font-size: 30px;
+	margin-bottom: 10px;
+}
+#video{
+	display: block;
+	margin: 0 auto;
+}
+
+@media screen and (min-width: 1700px) {
+  .pricing {
+    width: 100%;
+  }
+  .pricing >div{
+    width: 100%;
+  }
+}
+
+#pricing{
+	display: flex;
+	background-image: url(images/bg5.jpg);
+}
+#pricing > div{
+	background-image: url(images/bg6.jpg);
+	padding: 20px;
+	font-size: 20px;
+}
+
+#price3070{
+	width: 250px;
+	height: 350px;
+	margin-left: 270px;
+	margin-right: 50px;
+}
+#price3080{
+	width: 250px;
+	height: 350px;
+	margin-right: 50px;
+}
+#price3090{
+	width: 250px;-
+	height: 350px;
+	margin-right: 200px;
+}
+.priceforall{
+	text-align: center;
+	font-size: 20px;
+}
+.pricedesc{
+	text-align: center;
+	font-size: 20px;
+}
+.price{
+	text-align: center;
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+.price2{
+	text-align: center;
+	font-size: 30px;
+	margin-bottom: 20px;
+	margin-top: 75px;
+}
+.price3{
+	text-align: center;
+	font-size: 30px;
+	margin-bottom: 20px;
+	margin-top: 95px;
+}
+.center{
+	text-align: center;
+}
+#email{
+	font-size: 20px;
+	color: black;
+}
+#email1{
+	width: 250px;
+	height: 30px;
+	color: black;
+}
+#submit{
+	color: black;
+	width: 150px;
+	height: 40px;
+	font-size: 20px;
+}
+.priceselect{
+	text-align: center;
+}
+.select{
+	font-size: 40px;
+	color: black;
+	background-color: #666600;
+}
+#form{
+	columns: black;
+}
